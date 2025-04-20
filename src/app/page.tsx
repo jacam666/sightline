@@ -28,7 +28,7 @@ export default function Home() {
               <a
                 data-mdb-ripple-init
                 className=" flex justify-center items-center btn btn-outline-light btn-lg p-1 text-xs sm:text-lg md:text-xl lg:text-xl text-white bg-green-950  hover:bg-green-800 hover:text-white transition-colors duration-300 ease-in-out px-12 py-2 "
-                href="/about"
+                href="/contactUs"
                 role="button"
               >
                 Get A Free Quote
@@ -49,7 +49,7 @@ export default function Home() {
         />
         <div className="flex flex-col items-start justify-center ml-4">
           <h1 className="font-corben text-2xl md:text-xl xl:text-4xl text-white xl:pb-4">
-            Your Trusted Windows & Doors Installation Partner
+            Your Trusted Fensa Registered Windows & Doors Installation Partner
           </h1>
           <p className=" font-corben text-xs md:text-md xl:text-xl text-white my-4 xl:my-2">
             Welcome to Sightline Windows, your trusted supplier and installer of high-quality UPVC and aluminium windows, French doors, UPVC doors, and patio doors. With 20 years of experience in the trade, we guarantee an outstanding Design/Sale to project managed installation experience.
