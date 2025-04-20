@@ -38,7 +38,7 @@ export default function Contact() {
         // <div className="flex justify-center w-full sm:w-[90%] md:w-[400px] outline-2 p-4 md:p-8 bg-stone-50 rounded-lg shadow-xl">
         <div className="flex justify-center w-full max-w-lg sm:w-[95%] p-4 md:p-8 bg-stone-50 rounded-lg shadow-xl">
             <form onSubmit={handleSubmit} className="space-y-4">
-                <div>
+                <div className="w-full md:w-[300px]">
                     <label htmlFor="name" className="block text-gray-700  mb-1">
                         Name:
                     </label>
@@ -51,7 +51,7 @@ export default function Contact() {
                         required
                     />
                 </div>
-                <div>
+                <div className="w-full md:w-[300px]">
                     <label htmlFor="email" className="block text-gray-700  mb-1">
                         Email:
                     </label>
@@ -64,7 +64,7 @@ export default function Contact() {
                         required
                     />
                 </div>
-                <div>
+                <div className="w-full md:w-[300px]">
                     <label htmlFor="message" className="block text-gray-700  mb-1">
                         Message:
                     </label>
