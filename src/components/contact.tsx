@@ -35,11 +35,13 @@ export default function Contact() {
     }
 
     return (
-        <div className="flex justify-center outline-2 p-4 md:p-8  md:mx-8 bg-stone-50 rounded-lg shadow-xl">
+        // <div className="flex justify-center outline-2 p-4 md:p-8  md:mx-8 bg-stone-50 rounded-lg shadow-xl">
+        <div className="flex justify-center w-full sm:w-[90%] md:w-[400px] outline-2 p-4 md:p-8 bg-stone-50 rounded-lg shadow-xl">
+
             <form onSubmit={handleSubmit} className="space-y-4">
                 <div>
-                    <label htmlFor="name" className="block text-gray-700 font-semibold mb-1">
-                        Name
+                    <label htmlFor="name" className="block text-gray-700  mb-1">
+                        Name:
                     </label>
                     <input
                         type="text"
@@ -51,8 +53,8 @@ export default function Contact() {
                     />
                 </div>
                 <div>
-                    <label htmlFor="email" className="block text-gray-700 font-semibold mb-1">
-                        Email
+                    <label htmlFor="email" className="block text-gray-700  mb-1">
+                        Email:
                     </label>
                     <input
                         type="email"
@@ -64,8 +66,8 @@ export default function Contact() {
                     />
                 </div>
                 <div>
-                    <label htmlFor="message" className="block text-gray-700 font-semibold mb-1">
-                        Message
+                    <label htmlFor="message" className="block text-gray-700  mb-1">
+                        Message:
                     </label>
                     <textarea
                         id="message"
