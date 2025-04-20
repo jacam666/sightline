@@ -11,14 +11,14 @@ export default function Gallery() {
   const [open, setOpen] = useState(false);
   const [index, setIndex] = useState(0);
 
-//   const images = Array.from({ length: 10 }, (_, i) => ({
-//     src: `/images/gallery${i + 1}.jpg`,
-//   }));
-const images = [
-    { src: '/images/gallery1.jpg' },
-    { src: '/images/gallery2.jpg' },
-    { src: '/images/gallery3.jpg' },
-  ];
+  const images = Array.from({ length: 3 }, (_, i) => ({
+    src: `/images/gallery${i + 1}.jpg`,
+  }));
+// const images = [
+//     { src: '/images/gallery1.jpg' },
+//     { src: '/images/gallery2.jpg' },
+//     { src: '/images/gallery3.jpg' },
+//   ];
   
 
   return (

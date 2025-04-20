@@ -51,7 +51,7 @@ export default function About() {
                 </section>
 
                 <section className="bg-white text-green-900 mt-4 text-center px-6 py-6">
-                    <p className="font-corben text-md md:text-lg xl:text-4xl xl:px-36 xl:w-2/3 mx-auto text-center leading-relaxed">
+                    <p className="font-corben text-md md:text-lg md:w-2/3 xl:text-4xl xl:px-36 xl:w-full mx-auto text-center leading-relaxed">
                         Contact us today to discuss your requirements and let us help you transform your space.
                     </p>
                     <a
