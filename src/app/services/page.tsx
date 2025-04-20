@@ -96,7 +96,7 @@ export default function Services() {
                             />
                         </div>
                         <div className="flex-1">
-                            <h2 className="font-corben text-2xl lg:text-5xl text-white mb-4 xl:mb-8">Fernsa Registered Installer</h2>
+                            <h2 className="font-corben text-2xl lg:text-5xl text-white mb-4 xl:mb-8">Fensa Registered Installer</h2>
                         </div>
                     </div>
                 </div>

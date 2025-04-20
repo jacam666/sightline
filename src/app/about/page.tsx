@@ -61,10 +61,9 @@ export default function About() {
                         Get A Free Consultation
                     </a>
                 </section>
-
-                <footer className="text-center text-white mt-8  text-sm px-4">
-                    <p className='py-4'>© 2025 Sightline Windows LTD. All rights reserved.</p>
-                </footer>
+                <footer className="text-center w-2/3 mx-auto text-white mt-8 text-sm px-4">
+                <p className='py-4'>© 2025 Sightline Windows LTD. All rights reserved.</p>
+            </footer>
             </main>
         </>
     );
