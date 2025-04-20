@@ -5,7 +5,7 @@ import Navbar from '@/components/Navbar';
 
 export default function About() {
     const paragraphClass =
-        'font-corben text-center text-xs md:text-lg xl:text-xl text-white my-4 leading-relaxed';
+        'font-corben text-center text-sm md:text-lg xl:text-xl text-white my-4 leading-relaxed';
 
     return (
         <>
@@ -22,9 +22,9 @@ export default function About() {
                     <Navbar />
                 </div>
 
-                <section className="flex flex-col md:flex-row items-center justify-center gap-4 px-4 md:px-24 py-6 pt-16">
+                <section className="flex flex-col md:flex-row items-center justify-center gap-4 px-4 md:px-24 py-6 ">
                     <div className="flex flex-col items-center justify-center ml-4">
-                        <h1 className="font-corben text-2xl md:text-4xl xl:text-6xl text-white xl:pb-8 text-center">
+                        <h1 className="font-corben text-3xl md:text-4xl xl:text-6xl text-white xl:pb-8 text-center">
                             Welcome To Sightline Windows
                         </h1>
 

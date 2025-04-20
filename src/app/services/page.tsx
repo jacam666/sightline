@@ -10,13 +10,13 @@ export default function Services() {
             <div className="sticky top-0 z-50 bg-green-900">
                 <Navbar />
             </div>
-            <section className="flex flex-col md:flex-row items-center justify-center gap-4 px-4 md:px-24 py-6 pt-16">
+            <section className="flex flex-col md:flex-row items-center justify-center gap-4 px-4 md:px-24 py-6">
                 <div className="flex flex-col items-center justify-center ml-4">
-                    <div className="m-8 ">
-                        <h1 className="font-corben text-2xl md:text-4xl lg:text-6xl text-white xl:pb-8 text-center">
+                    <div className=" ">
+                        <h1 className="font-corben text-3xl md:text-4xl lg:text-6xl text-white xl:pb-8 text-center">
                             Expert Window Installation Services
                         </h1>
-                        <p className="font-corben text-xs md:text-lg lg:text-xl xl:text-3xl text-center text-white my-8">
+                        <p className="font-corben text-sm  md:text-lg lg:text-xl xl:text-3xl text-center text-white my-8">
                             With 20 years’ experience in the trade you can be sure of an outstanding Design/Sale to project managed installation experience.
                         </p>
                     </div>
@@ -76,7 +76,7 @@ export default function Services() {
                         </div>
                         <div className="flex-1">
                             <h2 className="font-corben text-2xl lg:text-5xl text-white mb-4 xl:mb-8 underline">Trade Only</h2>
-                            <ul className="lg:text-2xl">
+                            <ul className="lg:text-2xl text-white">
                                 <ol>Composite Doors</ol>
                                 <ol>Lanterns</ol>
                                 <ol>Bifold Doors</ol>
