@@ -11,6 +11,7 @@ const navigation = [
     { name: 'About', href: '/about' },
     { name: 'Services', href: '/services' },
     { name: 'Contact', href: '/contactUs' },
+    { name: 'Gallery', href: '/gallery' },
 ];
 
 function classNames(...classes: string[]) {
@@ -32,8 +33,8 @@ export default function Navbar() {
 
     return (
         <Disclosure as="nav" className="">
-            <div className="mx-auto px-2 sm:px-6 lg:px-8 bg-green-950">
-                <div className="relative flex h-28 items-center justify-between mb-8 pt-8">
+            <div className="mx-auto px-2 sm:px-6 lg:px-8 bg-green-950 py-6">
+                <div className="relative flex h-28 items-center justify-between  pt-8">
                     <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                         {/* Mobile menu button */}
                         <DisclosureButton className="group relative inline-flex items-center justify-center rounded-md p-2 text-white font-bold transition-colors focus:ring-2 focus:ring-white focus:outline-hidden focus:ring-inset">
@@ -49,13 +50,14 @@ export default function Navbar() {
                                 <img
                                     alt="Your Company"
                                     src="/images/Sightline Windows Ltd_PNG.avif"
-                                    className=" h-28  w-40 md:h-28 md:w-36 my-8"
+                                    className=" h-28  w-40 md:h-28 md:w-36 "
                                 />
                             </Link>
-
                         </div>
                         <div className="hidden sm:ml-6 sm:flex items-center">
-                            <div className="flex space-x-18">
+                            {/* <div className="flex space-x-8"> */}
+                            <div className="flex space-x-4 md:space-x-6 lg:space-x-8">
+
                                 {navigation.map((item) => {
                                     const isActive = pathname === item.href;
                                     return (
@@ -65,7 +67,7 @@ export default function Navbar() {
                                             aria-current={isActive ? 'page' : undefined}
                                             className={classNames(
                                                 isActive
-                                                    ? 'bg-green-900 text-white'
+                                                    ? 'bg-green-950 text-white'
                                                     : 'text-white hover:bg-green-900 hover:text-white',
                                                 'rounded-md px-4 py-1 text-lg transition-colors duration-300 ease-in-out'
                                             )}
@@ -79,8 +81,8 @@ export default function Navbar() {
                     </div>
                 </div>
             </div>
-            <DisclosurePanel className="sm:hidden">
-                <div className="space-y-1 px-2 pt-2 pb-3">
+            <DisclosurePanel className="sm:hidden bg-green-950">
+                <div className="space-y-1 px-2 pt-2 pb-3 ">
                     {navigation.map((item) => {
                         const isActive = pathname === item.href;
                         return (
