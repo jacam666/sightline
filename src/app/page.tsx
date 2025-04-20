@@ -4,8 +4,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="bg-green-900 min-h-screen">
-      <div className="sticky top-0 z-50 bg-green-900">
+    <div className="bg-green-950 min-h-screen">
+      <div className="sticky top-0 z-50">
         <Navbar />
       </div>
       <div className="relative">
@@ -27,7 +27,7 @@ export default function Home() {
             <div className='flex py-4 mx-4 md:px-2 xl:mt-16'>
               <a
                 data-mdb-ripple-init
-                className=" flex justify-center items-center btn btn-outline-light btn-lg p-1 text-xs sm:text-lg md:text-xl lg:text-xl text-white bg-green-900  hover:bg-green-800 hover:text-white transition-colors duration-300 ease-in-out px-12 py-2 "
+                className=" flex justify-center items-center btn btn-outline-light btn-lg p-1 text-xs sm:text-lg md:text-xl lg:text-xl text-white bg-green-950  hover:bg-green-800 hover:text-white transition-colors duration-300 ease-in-out px-12 py-2 "
                 href="/about"
                 role="button"
               >
@@ -44,20 +44,20 @@ export default function Home() {
           alt="Logo"
           width={350}
           height={300}
-          className="h-auto  md:w-[500px] md:h-[400px] lg:w-[600px] lg:h-[500px] object-cover # shadow-lg"
+          className="h-auto  md:w-[300px] md:h-[400px] lg:w-[400px] lg:h-[500px] object-contain"
           priority
         />
         <div className="flex flex-col items-start justify-center ml-4">
-          <h1 className="font-corben text-2xl md:text-4xl xl:text-5xl text-white xl:pb-8">
+          <h1 className="font-corben text-2xl md:text-xl xl:text-4xl text-white xl:pb-4">
             Your Trusted Windows & Doors Installation Partner
           </h1>
-          <p className=" font-corben text-xs md:text-lg xl:text-xl text-white my-4">
+          <p className=" font-corben text-xs md:text-md xl:text-xl text-white my-4 xl:my-2">
             Welcome to Sightline Windows, your trusted supplier and installer of high-quality UPVC and aluminium windows, French doors, UPVC doors, and patio doors. With 20 years of experience in the trade, we guarantee an outstanding Design/Sale to project managed installation experience.
           </p>
           <div className="mt-4 flex">
             <a
               href="/about"
-              className="px-12 py-2 bg-white text-black text-xs hover:bg-green-700 transition duration-300"
+              className="px-12 py-2 bg-white text-black text-xs sm:text-lg md:text-lg hover:bg-green-700 transition duration-300"
             >
               Learn More
             </a>
@@ -65,6 +65,9 @@ export default function Home() {
         </div>
 
       </div>
+      <footer className="text-center text-white mt-8 w-2/3 mx-auto text-sm px-4">
+        <p className='py-4'>© 2025 Sightline Windows LTD. All rights reserved.</p>
+      </footer>
     </div>
   );
 }

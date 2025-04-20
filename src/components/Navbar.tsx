@@ -31,9 +31,9 @@ export default function Navbar() {
     }
 
     return (
-        <Disclosure as="nav" className="bg-green-900">
-            <div className="mx-auto px-2 sm:px-6 lg:px-8 bg-green-900">
-                <div className="relative flex h-28 items-center justify-between">
+        <Disclosure as="nav" className="">
+            <div className="mx-auto px-2 sm:px-6 lg:px-8 bg-green-950">
+                <div className="relative flex h-28 items-center justify-between mb-8 pt-8">
                     <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                         {/* Mobile menu button */}
                         <DisclosureButton className="group relative inline-flex items-center justify-center rounded-md p-2 text-white font-bold transition-colors focus:ring-2 focus:ring-white focus:outline-hidden focus:ring-inset">
@@ -44,7 +44,7 @@ export default function Navbar() {
                         </DisclosureButton>
                     </div>
                     <div className="flex flex-1 items-center justify-between sm:items-stretch sm:justify-between">
-                        <div className="flex shrink-0 items-center absolute left-1/2 -translate-x-1/2 sm:relative sm:left-auto sm:translate-x-0">
+                        <div className="flex shrink-0 items-center absolute left-1/2 -translate-x-1/2 sm:relative sm:left-auto sm:translate-x-0 my-4">
                             <Link href="/">
                                 <img
                                     alt="Your Company"
@@ -65,8 +65,8 @@ export default function Navbar() {
                                             aria-current={isActive ? 'page' : undefined}
                                             className={classNames(
                                                 isActive
-                                                    ? 'bg-green-800 text-white'
-                                                    : 'text-white hover:bg-green-800 hover:text-white',
+                                                    ? 'bg-green-900 text-white'
+                                                    : 'text-white hover:bg-green-900 hover:text-white',
                                                 'rounded-md px-4 py-1 text-lg transition-colors duration-300 ease-in-out'
                                             )}
                                         >
@@ -91,8 +91,8 @@ export default function Navbar() {
                                 aria-current={isActive ? 'page' : undefined}
                                 className={classNames(
                                     isActive
-                                        ? 'bg-green-800 text-white'
-                                        : 'text-white hover:bg-green-800 hover:text-white',
+                                        ? 'bg-green-900 text-white'
+                                        : 'text-white hover:bg-green-900 hover:text-white',
                                     'block rounded-md px-3 py-2 text-base  transition-colors duration-300 ease-in-out'
                                 )}
                             >

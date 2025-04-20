@@ -24,7 +24,7 @@ const Header: React.FC = () => {
                         <div className='flex py-4 mx-4 md:px-2 mt-16'>
                             <a
                                 data-mdb-ripple-init
-                                className=" flex justify-center items-center btn btn-outline-light btn-lg p-1 text-xs sm:text-lg md:text-xl lg:text-xl text-white bg-green-900  hover:bg-green-800 hover:text-white transition-colors duration-300 ease-in-out px-12 py-2 "
+                                className=" flex justify-center items-center btn btn-outline-light btn-lg p-1 text-xs sm:text-lg md:text-xl text-white bg-green-900  hover:bg-green-850 hover:text-white transition-colors duration-300 ease-in-out px-12 py-2 "
                                 href="/about"
                                 role="button"
 
