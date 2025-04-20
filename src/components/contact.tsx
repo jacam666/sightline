@@ -1,4 +1,3 @@
-
 "use client";
 
 import React, { useState } from 'react';
@@ -36,8 +35,8 @@ export default function Contact() {
 
     return (
         // <div className="flex justify-center outline-2 p-4 md:p-8  md:mx-8 bg-stone-50 rounded-lg shadow-xl">
-        <div className="flex justify-center w-full sm:w-[90%] md:w-[400px] outline-2 p-4 md:p-8 bg-stone-50 rounded-lg shadow-xl">
-
+        // <div className="flex justify-center w-full sm:w-[90%] md:w-[400px] outline-2 p-4 md:p-8 bg-stone-50 rounded-lg shadow-xl">
+        <div className="flex justify-center w-full max-w-lg sm:w-[95%] p-4 md:p-8 bg-stone-50 rounded-lg shadow-xl">
             <form onSubmit={handleSubmit} className="space-y-4">
                 <div>
                     <label htmlFor="name" className="block text-gray-700  mb-1">
@@ -81,8 +80,8 @@ export default function Contact() {
                 <button
                     type="submit"
                     className={`w-full ${submitted
-                            ? "bg-green-900 hover:bg-green-800"
-                            : "bg-green-900 hover:bg-green-800"
+                        ? "bg-green-900 hover:bg-green-800"
+                        : "bg-green-900 hover:bg-green-800"
                         } text-white hover:text-gray-900  py-2 px-4 rounded transition-colors`}
                 >
                     {submitted ? "Message Sent!" : "Submit Form"}
