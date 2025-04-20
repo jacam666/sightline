@@ -8,7 +8,9 @@ import Contact from '@/components/contact';
 export default function ContactUs() {
     return (
         <div className="flex flex-col bg-green-950 ">
-            <Navbar />
+            <div className="sticky top-0 z-50 bg-green-950">
+                <Navbar />
+            </div>
             <div className="min-h-screen flex w-full flex-col bg-green-950 lg:p-16 px-4 items-center">
                 <h2 className='font-corben text-3xl lg:text-6xl text-center text-white py-4'>
                     Let&apos;s Discuss Your Next Project
