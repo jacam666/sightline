@@ -40,6 +40,7 @@ export default function Services() {
                                 <ol>Patio Doors</ol>
                                 <ol>Fascia / gutter</ol>
                                 <ol>Cladding</ol>
+                                <ol>Composite Doors</ol>
                             </ul>
                         </div>
                     </div>
