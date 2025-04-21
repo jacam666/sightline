@@ -16,18 +16,15 @@ export default function About() {
                     content="Learn more about Sightline Windows – your trusted supplier and installer of high-quality UPVC and aluminium windows and doors."
                 />
             </Head>
-
             <main className="bg-green-950 min-h-screen">
                 <div className="sticky top-0 z-50 bg-green-900">
                     <Navbar />
                 </div>
-
                 <section className="flex flex-col md:flex-row items-center justify-center gap-4 px-4 md:px-24 py-6 ">
                     <div className="flex flex-col items-center justify-center ml-4">
                         <h1 className="font-corben text-3xl md:text-4xl xl:text-6xl text-white xl:pb-8 text-center">
                             Welcome To Sightline Windows
                         </h1>
-
                         <p className={paragraphClass}>
                             Welcome to Sightline Windows, your trusted supplier and installer of high-quality UPVC and aluminium
                             windows, French doors, UPVC doors, and patio doors.
@@ -49,7 +46,6 @@ export default function About() {
                         </p>
                     </div>
                 </section>
-
                 <section className="bg-white text-green-900 mt-4 text-center px-6 py-6">
                     <p className="font-corben text-md md:text-lg md:w-2/3 xl:text-4xl xl:px-36 xl:w-full mx-auto text-center leading-relaxed">
                         Contact us today to discuss your requirements and let us help you transform your space.
