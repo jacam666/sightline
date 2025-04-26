@@ -31,46 +31,40 @@ export default function Gallery() {
             key: "gallery3",
         },
         {
-            src: "/images/mainPage-Image.avif",
+            src: "/images/gallery1.jpg",
             width: 1200,
             height: 800,
             key: "gallery4",
         },
         {
-            src: "/images/gallery1.jpg",
-            width: 1200,
-            height: 800,
-            key: "gallery5",
-        },
-        {
             src: "/images/gallery2.jpg",
             width: 1600,
             height: 900,
-            key: "gallery6",
+            key: "gallery5",
         },
         {
             src: "/images/gallery3.jpg",
             width: 1080,
             height: 720,
-            key: "gallery7",
-        },
-        {
-            src: "/images/mainPage-Image.avif",
-            width: 1200,
-            height: 800,
-            key: "gallery8",
+            key: "gallery6",
         },
         {
             src: "/images/gallery1.jpg",
             width: 1200,
             height: 800,
-            key: "gallery9",
+            key: "gallery7",
         },
         {
             src: "/images/gallery2.jpg",
             width: 1600,
             height: 900,
-            key: "gallery10",
+            key: "gallery8",
+        },
+        {
+            src: "/images/gallery3.jpg",
+            width: 1080,
+            height: 720,
+            key: "gallery9",
         },
     ];
 
