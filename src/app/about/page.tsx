@@ -2,6 +2,7 @@
 
 import Head from 'next/head';
 import Navbar from '@/components/Navbar';
+import FooterSocial from '@/components/FooterSocial';
 
 export default function About() {
     const paragraphClass =
@@ -58,6 +59,7 @@ export default function About() {
                     </a>
                 </section>
                 <footer className="text-center w-2/3 mx-auto text-white mt-8 text-sm px-4">
+                <FooterSocial />
                 <p className='py-4'>© 2025 Sightline Windows LTD. All rights reserved.</p>
             </footer>
             </main>

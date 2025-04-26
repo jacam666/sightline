@@ -1,3 +1,4 @@
+import FooterSocial from "@/components/FooterSocial";
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
 
@@ -114,6 +115,7 @@ export default function Services() {
                 </a>
             </section>
             <footer className="text-center w-2/3 mx-auto text-white mt-8 text-sm px-4">
+            <FooterSocial />
                 <p className='py-4'>© 2025 Sightline Windows LTD. All rights reserved.</p>
             </footer>
         </main>

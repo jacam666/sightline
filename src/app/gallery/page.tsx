@@ -5,6 +5,7 @@ import Navbar from '@/components/Navbar';
 import Image from 'next/image';
 import Lightbox from 'yet-another-react-lightbox';
 import 'yet-another-react-lightbox/styles.css';
+import FooterSocial from '@/components/FooterSocial';
 
 
 export default function Gallery() {
@@ -103,6 +104,7 @@ export default function Gallery() {
                     ))}
                 </div>
                 <footer className="text-center w-2/3 mx-auto text-white mt-8 text-sm px-4">
+                <FooterSocial />
                     <p className='py-4'>© 2025 Sightline Windows LTD. All rights reserved.</p>
                 </footer>
             </div>

@@ -2,6 +2,7 @@ import React from 'react';
 import { MapPinIcon, EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/solid';
 import Navbar from '@/components/Navbar';
 import Contact from '@/components/contact';
+import FooterSocial from '@/components/FooterSocial';
 
 
 
@@ -51,6 +52,7 @@ export default function ContactUs() {
                 </div>
             </div>
             <footer className="text-center w-2/3 mx-auto text-white text-sm px-4">
+            <FooterSocial />
                 <p className='py-4'>© 2025 Sightline Windows LTD. All rights reserved.</p>
             </footer>
         </div>
