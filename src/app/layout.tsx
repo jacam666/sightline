@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Corben } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 
 const corben = Corben({
@@ -33,6 +34,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+       <Script
+          src="https://kit.fontawesome.com/9e8c3e5a45.js"
+          strategy="afterInteractive"
+          crossOrigin="anonymous"
+        />
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${corben.className} antialiased`}
       >
