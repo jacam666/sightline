@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from 'react';
+import Head from 'next/head';
 
 export default function Contact() {
     const [submitted, setSubmitted] = useState(false);
@@ -35,8 +36,16 @@ export default function Contact() {
     }
 
     return (
-        <div className="flex justify-center w-full max-w-lg sm:w-[95%] p-4 md:p-8 bg-stone-50 rounded-lg shadow-xl">
-            <form
+        <>
+            <Head>
+                <title>Contact Sightline Windows | Get a Free Quote</title>
+                <meta
+                    name="description"
+                    content="Contact Sightline Windows in Milton Keynes to get your free quote for high-quality window and door installations."
+                />
+            </Head>
+            <div className="flex justify-center w-full max-w-lg sm:w-[95%] p-4 md:p-8 bg-stone-50 rounded-lg shadow-xl">
+                <form
                     onSubmit={handleSubmit}
                     className="bg-white p-6 rounded shadow-md w-full max-w-md"
                 >
@@ -110,8 +119,9 @@ export default function Contact() {
                             Thank you! Your message has been sent.
                         </p>
                     )}
-                </form>   
-        </div>
+                </form>
+            </div>
+        </>
     );
 }
 

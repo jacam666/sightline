@@ -2,9 +2,18 @@ import FooterSocial from "@/components/FooterSocial";
 import Navbar from "@/components/Navbar";
 //import Header from "@/components/header";
 import Image from "next/image";
+import Head from "next/head";
 
 export default function Home() {
   return (
+    <>
+    <Head>
+        <title>Double Glazing Windows in Milton Keynes | Sightline Windows</title>
+        <meta
+          name="description"
+          content="Sightline Windows offers professional double glazing and window installations in Milton Keynes. Contact us for a free quote."
+        />
+      </Head>
     <div className="bg-green-950 min-h-screen">
       <div className="sticky top-0 z-50">
         <Navbar />
@@ -71,5 +80,6 @@ export default function Home() {
         <p className='py-4'>© 2025 Sightline Windows LTD. All rights reserved.</p>
       </footer>
     </div>
+    </>
   );
 }
